@@ -20,8 +20,10 @@ function App() {
     <div className="App">
       <div className="app-panel">
         <ul>
-          <li onClick={openFile}><a href="file:///Users/jsharma2/Desktop/charvi.pdf">first</a></li>
-          <li onClick={openFile}><a href="file:///Users/jsharma2/Desktop/Screenshot%202023-04-21%20at%201.27.28%20AM.png">second</a></li>
+          <li onClick={openFile}><a href="https://www.gstatic.com/webp/gallery/1.jpg">1</a></li>
+          <li onClick={openFile}><a href="https://www.africau.edu/images/default/sample.pdf">sample</a></li>
+          <li onClick={openFile}><a href="https://miro.medium.com/v2/resize:fit:400/format:webp/0*Db6jgQW31c0dYK6V.jpg">dog</a></li>
+          <li onClick={openFile}><a href="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf">dummy</a></li>
         </ul>
       </div>
       <div className="app-body">
